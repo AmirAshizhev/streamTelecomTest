@@ -5,12 +5,18 @@
   border-radius: 4px;
 }
 
+.settings_dark{
+  background: #252525;
+  border: #252525;
+}
+
 .settings__form{
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   width: 350px;
 }
+
 
 .settings__box{
   display: grid;
@@ -31,6 +37,10 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+.settings__mech_dark{
+  background-color: #404040;
+  background-image: url(../../images/mech_dark.svg);
 }
 
 .settings__title{
@@ -80,7 +90,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #1FA2DE;
+  color: rgba(31, 162, 222, 1);
   text-decoration: none;
 
   display: flex;
@@ -95,6 +105,7 @@
 
 .settings__link-text{
   margin: 0;
+  color: rgba(31, 162, 222, 1);
 }
 
 .settings__link-img{

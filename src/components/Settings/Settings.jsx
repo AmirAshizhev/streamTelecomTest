@@ -7,10 +7,10 @@ function Settings({setOpenedPopup, darkMode}) {
   }
 
   return (
-    <div className="settings">
-      <form className="settings__form">
+    <div className={`settings ${darkMode && 'settings_dark'}`}>
+      <form className='settings__form'>
         <div className="settings__box">
-          <div className="settings__mech"></div>
+          <div className={`settings__mech ${darkMode && 'settings__mech_dark'}`}></div>
           <h2 className="settings__title">Настройки</h2>
           <span className="settings__span">Логин: 77777777777</span>
         </div>

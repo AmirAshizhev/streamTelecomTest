@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .App {
   display: flex;
   justify-content: center;
@@ -6,3 +10,6 @@
   min-height: 100vh;
 }
 
+.App_dark{
+  background: #2D2D2D;
+}
