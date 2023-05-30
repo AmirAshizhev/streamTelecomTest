@@ -1,6 +1,6 @@
 import './Settings.css';
 
-function Settings({setOpenedPopup}) {
+function Settings({setOpenedPopup, darkMode}) {
   return (
     <div className="settings">
       

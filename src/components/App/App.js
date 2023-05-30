@@ -6,12 +6,13 @@ import './App.css';
 
 function App() {
 
-  const [openedPopup, setOpenedPopup] = useState(true)
+  const [openedPopup, setOpenedPopup] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
     <div className="App">
-      <Settings setOpenedPopup={setOpenedPopup}/>
-      {openedPopup && <Popup/>}
+      <Settings setOpenedPopup={setOpenedPopup} darkMode={isDarkMode}/>
+      {openedPopup && <Popup darkMode={isDarkMode}/>}
     </div>
   );
 }
