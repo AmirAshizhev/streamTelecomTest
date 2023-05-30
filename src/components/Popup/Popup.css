@@ -35,7 +35,7 @@
   width: 14px;
   background-image: url(../../images/close-bth_black.svg);
   border: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 .popup__bth_dark{
