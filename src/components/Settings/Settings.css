@@ -17,7 +17,6 @@
   width: 350px;
 }
 
-
 .settings__box{
   display: grid;
   grid-template-columns: min-content auto;
@@ -38,6 +37,7 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
+
 .settings__mech_dark{
   background-color: #404040;
   background-image: url(../../images/mech_dark.svg);
@@ -55,6 +55,11 @@
 
 .settings__title_dark{
   color: white;
+}
+
+.settings__auth{
+  display: grid;
+  gap: 4px;
 }
 
 .settings__span{
@@ -79,9 +84,7 @@
   color: #1FA2DE;
   padding: 12px 0;
   border-radius: 4px ;
-  /* border: solid 1px; */
   position: relative;
-  /* border-image: linear-gradient(to bottom, rgba(77, 181, 228, 1), rgba(0, 149, 217, 1)); */
   background: linear-gradient(to bottom, rgba(77, 181, 228, 1), rgba(0, 149, 217, 1));
 }
 
@@ -106,8 +109,6 @@
   opacity: 0.7;
 }
 
-
-
 .settings__link{
   font-family: 'Montserrat';
   font-style: normal;
@@ -116,9 +117,7 @@
   line-height: 18px;
   color: rgba(31, 162, 222, 1);
   text-decoration: none;
-
   display: flex;
-
   justify-content: space-between;
 }
 
