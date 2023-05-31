@@ -11,7 +11,7 @@ function Settings({setOpenedPopup, darkMode}) {
       <form className='settings__form'>
         <div className="settings__box">
           <div className={`settings__mech ${darkMode && 'settings__mech_dark'}`}></div>
-          <h2 className="settings__title">Настройки</h2>
+          <h2  className={`settings__title ${darkMode && 'settings__title_dark'}`}>Настройки</h2>
           <span className="settings__span">Логин: 77777777777</span>
         </div>
 
@@ -33,7 +33,7 @@ function Settings({setOpenedPopup, darkMode}) {
           <div className="settings__link-img settings__link-img_arrow"></div>
         </a>
 
-        <button className="settings__btn" type='button'>Создать пароль для API</button>
+        <button className={`settings__btn ${darkMode && 'settings__btn_dark'}`} type='button'>Создать пароль для API</button>
       </form>
     </div>
   );
